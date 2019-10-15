@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  road: one
+  date: 2019-10-12
+  time: 2019-10-12 09:38:32
+
+two:
+  user: two
+  road: two
+  date: 2019-10-12
+  time: 2019-10-12 09:38:32

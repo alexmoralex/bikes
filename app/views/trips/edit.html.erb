@@ -1,0 +1,19 @@
+<div class=container>
+<div class="row justify-content-md-center">
+
+<div class="col-7">
+  <%= render 'roads' %>
+</div>
+
+<div class="col-4">
+<div class="jumbotron style="background-color: #FBFBFB;"">
+<h2 class="text-center">Edit Trip</h2>
+<hr>
+  <%= render 'form', trip: @trip %>
+
+  <%= link_to 'Back', trips_path %>
+</div>
+
+</div>
+</div>
+</div>
